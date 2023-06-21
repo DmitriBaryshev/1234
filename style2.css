@@ -1,0 +1,62 @@
+body {
+    height: 100px;
+    width: 100px;
+    background-image: url('https://i.gifer.com/nKZ.gif');
+    background-size: cover;
+}
+ul {
+    list-style-type: square;
+}
+ol>li {
+    list-style-type: lower-roman;
+    color: brown;
+
+}
+
+ul>li {
+    list-style-type: upper-latin;
+    color: rgb(17, 0, 255);  
+}
+
+
+.one{
+    border: dashed 10px red;
+    height: 50px;
+    width: 600px;
+    background-image: url('https://img3.akspic.ru/crops/7/4/2/8/6/168247/168247-kosti_3d-igra_v_kosti_3d-azartnaya_igra-pitevaya_igra-kazino-1080x1920.jpg'); 
+    background-size: contain;
+    padding: 50px 50px 50px 50px;
+    margin: 0 auto;
+    border-radius: 20px 30px 25px 1px;   
+}
+
+.two{
+    border: solid 1px blue;
+    height: 300px;
+    width: 300px;
+    background-image: url('https://s.pikabu.ru/post_img/2012-12_5/1356091645_1761625816.gif'); 
+    background-size: cover;
+    padding: 100px;
+    margin: 0 auto;
+    border-radius: 20px 30px 25px 1px; 
+    background-clip: padding-box;
+}
+figcaption {
+    color: blue;
+}
+figure{
+    width: 250px;
+}
+a {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+img {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+div{
+    color: darkmagenta;
+}
