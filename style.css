@@ -1,18 +1,11 @@
-body {
+h1 {
+    font-size: 54px;
+    color: red;
+}
+p {
     font-size: 1rem;
+    font-weight: 100;
 }
-.test {
-    width: 500px;
-    height: 500px;
-    background-color: rgb(15, 15, 223);
-    overflow: hidden;
-    border-width: 30px;
-    border-color: rgb(139, 53, 22);
-    border-style: groove;
-    border-radius: 20px/100px;
-    cursor: pointer;
-}
-.test:hover {
-    border-color: rgb(102, 102, 107);
-    border-style: dashed;
+blockquote {
+    font-style: italic;
 }
